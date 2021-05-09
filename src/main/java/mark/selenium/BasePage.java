@@ -10,7 +10,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Reporter;
 
 /**
- * Created by Harshit on 02 Oct, 2019 for Task1
+ * Created by Harshit
  */
 public class BasePage {
 
@@ -28,7 +28,6 @@ public class BasePage {
 		try {
 			Thread.sleep(num);
 		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}

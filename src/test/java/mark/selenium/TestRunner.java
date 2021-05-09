@@ -5,7 +5,6 @@ import org.testng.Reporter;
 import org.testng.annotations.*;
 import utilities.PropFileHandler;
 import io.restassured.RestAssured;
-import mark.selenium.TestSessionInitiator;
 
 public class TestRunner {
 
