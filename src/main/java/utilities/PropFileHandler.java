@@ -5,6 +5,13 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
 
+/**
+ * PropFileHandler class stores information that remains static throughout the framework
+ * 
+ * Contains read and write property files
+ *
+ */
+
 public class PropFileHandler {
 	
 	static Properties properties = new Properties();

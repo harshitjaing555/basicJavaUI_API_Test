@@ -10,6 +10,12 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 
 import utilities.PropFileHandler;
 
+/**
+ * TestSessionInitiator class is responsible for loading the configuration from property files, initializing
+ * the webdriver and implicit waits 
+ *
+ */
+
 
 public class TestSessionInitiator {
 	

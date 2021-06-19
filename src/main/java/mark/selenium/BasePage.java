@@ -10,8 +10,11 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Reporter;
 
 /**
- * Created by Harshit
+ * create a base page class which defines a WebDriver object, instantiates it, and then initializes it 
+ * and implicit wait times. Subsequent page classes then inherit from the base page, thus automatically 
+ * having access to the driver
  */
+
 public class BasePage {
 
 	public WebDriver driver;

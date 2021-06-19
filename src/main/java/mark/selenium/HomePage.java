@@ -7,10 +7,17 @@ import org.testng.Reporter;
 
 import utilities.PropFileHandler;
 
+
+/**
+ * HomePage class stores element locators (cssSelectors) for tests, verify results and handle reporter log entries
+ *
+ */
+
 public class HomePage extends BasePage {
 
 	public static By career = By.cssSelector("ul#top-menu a[href$='/careers/']");
-	public static By viewJobs = By.cssSelector("div.tp-mask-wrap>div.rev-btn");
+//	public static By viewJobs = By.cssSelector("div.tp-mask-wrap>div.rev-btn");
+	public static By viewJobs = By.cssSelector("div.rev-btn");
 
 	public HomePage(WebDriver driver) {
 		super(driver);
