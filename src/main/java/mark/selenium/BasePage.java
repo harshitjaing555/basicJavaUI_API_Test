@@ -12,7 +12,7 @@ import org.testng.Reporter;
 /**
  * create a base page class which defines a WebDriver object, instantiates it, and then initializes it 
  * and implicit wait times. Subsequent page classes then inherit from the base page, thus automatically 
- * having access to the driver
+ * having access to the driver.
  */
 
 public class BasePage {
